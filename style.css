@@ -1,0 +1,103 @@
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.nomargin {
+  padding: 0;
+  margin: 0;
+}
+
+.fitheight {
+  height: 50vh;
+}
+
+.padding {
+  padding: .5rem;
+}
+
+.full-size {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+}
+
+.dark {
+  background-color: #0A0A0A;
+  color: #FFFFFF;
+}
+
+.red {
+  color: red;
+}
+
+#florence {
+  background: url(images/florence1-1.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#hotel1 {
+  background: url(images/120445924_y.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+#hotel2 {
+  background: url(images/120445906_y.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+#hotel3 {
+  background: url(images/120445932_y.jpeg) no-repeat center;
+  background-size: cover;
+}
+
+#heart {
+  font-size: 80px;
+}
+
+#zaza1 {
+  background: url(images/trattoria-za-za.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#zaza2 {
+  background: url(images/t-bone-steak.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#zaza3 {
+  background: url(images/photo1jpg.jpg) no-repeat center;
+  background-size: cover;
+}
+
+#david {
+  background: url(images/david-michelangelo.jpg) no-repeat top;
+  background-size: cover;
+}
+
+@-webkit-keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {-webkit-transform: translateY(0);}
+  40% {-webkit-transform: translateY(-30px);}
+  60% {-webkit-transform: translateY(-15px);}
+}
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+  40% {transform: translateY(-30px);}
+  60% {transform: translateY(-15px);}
+}
+/*
+ * Adding the animation to our element
+*/
+.bounce {
+  -webkit-animation-name: bounce;
+  animation-name: bounce;
+}
+
+.animated {
+  -webkit-animation-duration: 1s;
+  animation-duration: 1s;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  animation-iteration-count:infinite;
+}
